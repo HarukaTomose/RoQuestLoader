@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Ro Quest Loader",
+  "version": "0.10",
+  "description": "キャラクターのクエスト実施状況情報をCSV保存します。※利用許諾表記は拡張機能ポップアップ内に記載。",
+  "author": "Haruka Tomose",
+  "homepage_url": "https://tomose.net/RO/?RoQuestLoader",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://rowebtool.gungho.jp/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+    "icons": {
+    "128": "icon128.png"
+  }
+}
